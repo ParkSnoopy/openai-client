@@ -1,4 +1,4 @@
-use reqwest_websocket::{RequestBuilderExt, WebSocket};
+use reqwest_websocket::{Upgrade, WebSocket};
 
 use crate::v1::{api::Client, error::APIError};
 
