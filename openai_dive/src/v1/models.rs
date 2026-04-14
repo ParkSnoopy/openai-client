@@ -48,6 +48,8 @@ pub enum EmbeddingModel {
 pub enum TranscriptionModel {
     #[serde(rename = "gpt-4o-transcribe")]
     Gpt4OTranscribe,
+    #[serde(rename = "gpt-4o-mini-transcribe")]
+    Gpt4OMiniTranscribe,
     #[serde(rename = "whisper-1")]
     Whisper1,
 }
